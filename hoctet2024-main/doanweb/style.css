@@ -1,0 +1,445 @@
+html,
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.modau {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.trencung {
+    position: absolute;
+    width: 1400px;
+    height: 50px;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modau img {
+    position: absolute;
+    width: 100%;
+    z-index: -5;
+}
+
+.phuluc a {
+    background-color: #1d1d1d57;
+    border-radius: 15px;
+    color: white;
+    font-size: 15x;
+    line-height: 21px;
+    text-decoration: none;
+    padding: 4px 14px 4px 14px;
+}
+
+.trencung>span {
+    text-transform: uppercase;
+    height: 21px;
+    width: 298.047px;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #454545;
+}
+
+.khoangcach {
+    width: 50%;
+}
+
+.phuluc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 29px;
+}
+
+.navbar {
+    position: absolute;
+    top: 60px;
+    width: 1400px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(29, 29, 29, 0.34);
+    border-radius: 30px;
+
+}
+
+.navlink {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navlink li {
+    display: inline-block;
+}
+
+.navlink li a {
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.search {
+    width: 500px;
+    display: flex;
+}
+
+.search input {
+    width: 100%;
+    height: 44px;
+    border-radius: 22px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding-left: 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.search button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    position: relative;
+    left: -32px;
+}
+
+#timcuahang {
+    display: flex;
+    align-items: center;
+}
+
+#giohang {
+    display: flex;
+    align-items: center;
+}
+
+#giohang span {
+    margin-right: 5px;
+}
+
+#gioithieuhanhtrinhtute {
+    width: 1400px;
+    height: 650px;
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+#gioithieuhanhtrinhtute img {
+    position: relative;
+    display: block;
+    width: 515px;
+    height: 310px;
+    margin-right: auto;
+}
+
+#gioithieuhanhtrinhtute p {
+    position: relative;
+    display: block;
+    margin-top: 34px;
+    margin-right: auto;
+    width: 530px;
+    line-height: 30px;
+}
+
+#gioithieuhanhtrinhtute span {
+    color: rgb(123 215 214);
+}
+
+.phim01 {
+    position: relative;
+    top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cachdchinh {
+    position: relative;
+    top: 200px;
+    margin: 100px auto;
+    border-radius: 30px;
+    font-size: 15px;
+    background-image: url(asset\ 5.jpeg);
+    width: 1400px;
+    height: 1000px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: space-;
+    flex-wrap: wrap;
+
+}
+
+.cachdchinh a {
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.chuah23 {
+    width: 1200px;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chuah23 h2 {
+    font-size: 55px;
+    line-height: 20px;
+}
+
+.gotocdtute {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.duongketrang {
+    color: white;
+    background-color: white;
+    width: 80%;
+    height: 5px;
+    margin: 40px 0;
+}
+
+.chuatrang600 {
+    width: 1400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.trang600 {
+    width: 600px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.trang600 img {
+    width: 100%;
+}
+
+
+.trang600 p {
+    color: black;
+    font-size: 20px;
+}
+
+.trang600 hr {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.tieude {
+    font-size: 30px !important;
+    color: black;
+}
+
+.nd1 {
+    margin-bottom: 50px;
+}
+
+
+
+.lalanhdumlarach {
+    position: relative;
+    top: 200px;
+    margin: 100px auto;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.lalanhdumlarach {
+    width: 1400px;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+}
+
+#muctieu {
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 40.32px;
+    margin-top: 10px;
+}
+
+#muctieu span {
+    color: #7bd7d6;
+}
+
+.thanhquahd {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.thanhquahd>span {
+    font-size: 96px;
+    line-height: 144px;
+    font-weight: 900;
+    color: #7bd7d6;
+}
+
+.thanhquahd>h4 {
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: bolder;
+    color: black;
+    margin: 0;
+}
+
+.thanhquahd>p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.parentthanhquahd {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.chiasevehanhtrinh {
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(123, 215, 214, 0.2);
+    display: flex;
+    gap: 20px;
+}
+
+#nen_chiasevehanhtrinh {
+    z-index: -3;
+    width: 100%;
+    position: absolute;
+}
+
+.hinhanh_chiasevehanhtrinh {
+    height: 700px;
+}
+
+.noidung_chiasehanhtrinh {
+    width: 712px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    height: 450px;
+}
+
+.hinhanh_chiasevehanhtrinh, .noidung_chiasehanhtrinh {
+    position: relative;
+    top: 100px;
+}
+
+.tieude_chiasehanhtrinh {
+    border-bottom: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.tieude_chiasehanhtrinh>span {
+    font-size: 54px;
+    line-height: 70px;
+    font-weight: 700;
+    color: rgb(52, 201, 199);
+}
+
+.nd1_chiasevehanhtrinh>h3 {
+    font-size: 30.72px;
+    font-weight: 700;
+    line-height: 46.08px;
+    margin: 15px 0;
+    margin-top: 40px;
+}
+
+.nd1_chiasevehanhtrinh>p {
+    margin: 15px 0;
+    font-style: italic;
+}
+
+.nd2_chiasevehanhtrinh>h4 {
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 31.68px;
+    margin: 15px 0;
+
+}
+
+.nd2_chiasevehanhtrinh>p {
+    margin: 0;
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#cshanhtrinh1 {
+    height: 220px;
+    opacity: 0.3;
+}
+
+#cshanhtrinh2 {
+    height: 320px;
+    opacity: 0.6;
+}
+
+#cshanhtrinh3 {
+    height: 470px;
+}
+
+.cshanhtrinh_img {
+    border-radius: 30px;
+    margin: 0 10px;
+}

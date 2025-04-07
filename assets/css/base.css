@@ -1,0 +1,233 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #454545;
+    --primary-color: #55d5d2;
+    --primary-color-ver2: #4dc0bd;
+    --primary-color-ver3: #5EEAD4;
+    --secondary-color: #f58f5d;
+    --background-grey: rgb(29, 29, 29, 0.3);
+    --wide-blur: 1.25rem;
+}
+
+/* Đảm bảo tất cả các phần tử được kích thước theo border-box */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Padding của container */
+.container-glasses {
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+/* Ngăn chặn tràn ngang */
+html, body {
+    overflow-x: hidden;
+}
+
+
+
+* {
+    box-sizing: inherit;
+}
+
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Poppins", "Nunito Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+/* Modal overlay */
+.modal {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+
+.modal-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+.modal__body {
+
+
+}
+
+
+
+
+#blur-test {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-grey);
+    backdrop-filter: blur(var(--wide-blur));
+    box-shadow: 0 0 10px var(--background-grey);
+    display: none; 
+}
+
+
+/* Cart Amount */
+.cart {
+    position: absolute;
+    top: 26px;
+    right: -6px;
+    width: 17px;
+    height: 17px;
+    border-radius: 17px;
+    background-color: #f58f5d;
+}
+
+
+.cart p {
+    margin: 0;
+    line-height: 17px;
+    text-align: center;
+    color: var(--black-color);
+    font-size: 12px;
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .header__above-navbar {
+        display: none;
+    }
+
+
+    .header__navbar {
+        margin-top: 2rem;
+    }
+
+
+    .header__navbar-item:nth-child(1),
+    .header__navbar-item:nth-child(2), .header__navbar-item:nth-child(4), .header__navbar-item:nth-child(5),
+    .amount-of-cart .header__navbar-item-link:nth-child(1)  {
+        display: none;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 739px) {
+    .header__navbar {
+        background-color: transparent;
+        backdrop-filter: none;
+    }
+
+
+    .header__navbar-item-search-input {
+        background-color: var(--background-grey);
+        backdrop-filter: blur(var(--wide-blur));
+    }
+
+
+    .header__navbar-logo {
+        display: none;
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header__navbar-item {
+        margin: 0 20px;
+    }
+
+
+   
+   
+    .just_icon {
+        display: block;
+        padding: 0;
+    }
+
+
+
+
+    .header__navbar-item:nth-child(3) {
+        flex: 1;
+    }
+
+
+    .header__navbar-item-search-input {
+        width: 100% !important;
+    }
+
+
+    .account_user {
+        display: block;
+    }
+
+
+   
+
+
+ 
+}
+
+
+@media (min-width: 1024px) {
+
+
+}
+
+
+@media (max-width: 1320px) {
+    .header__navbar-item-search-input {
+        width: 33rem;
+    }
+
+
+    .header__navbar-item-link {
+        font-size: 1.3rem;
+    }
+
+
+    .header__navbar-list .header__navbar-item:nth-child(5) {
+        padding: 0 10px
+    }
+
+
+    .header__navbar-list {
+        margin: 0 0 0 1.6rem;
+    }
+
+
+    .header__navbar-item:nth-child(2) .header__navbar-item-link {
+        padding-left: 1rem;
+    }
+}

@@ -1,0 +1,490 @@
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    .header__above-navbar {
+        display: none;
+    }
+
+
+    .header__navbar {
+        margin-top: 2rem;
+    }
+
+
+    .header__navbar-item:nth-child(1),
+    .header__navbar-item:nth-child(2), .header__navbar-item:nth-child(4), .header__navbar-item:nth-child(5),
+    .amount-of-cart .header__navbar-item-link:nth-child(1), .amount-of-cart::after  {
+        display: none;
+    }
+
+    .header__navbar-item:nth-child(3) {
+    }
+
+    /* .container-glasses {
+        top: 5rem;
+    } */
+
+    .main__glasses-journey-detail-text {
+        width: 100%;
+    }
+
+    .main__glasses-journey-detail-image {
+        display: none;
+    }
+
+    .footer-social {
+        margin-bottom: 4rem;
+    }
+
+    .main__glasses-services-container {
+        padding-bottom: 2rem;
+    }
+
+    .main__glasses-choose-img {
+        text-align: center;
+    }
+
+    .main__glasses-choose-img img {
+        box-shadow: 0px 0px 0px 1px #0E3F7E08, 0px 1px 1px -0.5px #2A334508, 0px 3px 3px -1.5px #2A334608, 0px 6px 6px -3px #2A334608, 0px 12px 12px -6px #0E3F7E08, 0px 24px 24px -12px #0E3F7E10; border-radius: 16px; margin-bottom: 3rem;
+    }
+
+    .bestseller__item {
+        margin-bottom: 1rem;
+    }
+
+    .bestseller__item-img {
+        width: 100%;
+    }
+
+    .row {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .decorate__image {
+        position: unset;
+        transform: none;
+    }
+ 
+    .decorate__image-left img, .decorate__image-right img {
+        margin-bottom: 5rem;
+    }
+
+    .main__glasses-collection {
+        margin-top: 12rem;
+    }
+
+    .view__product-option-left {
+        text-align: center;
+    }
+
+    .view__product-option-link span {
+        font-size: 1.4rem;
+    }
+
+    .view__product-item {
+        padding-bottom: 2.8rem;
+    }
+
+    .view__product-option {
+        padding-bottom: 4rem;
+    }
+
+    .view__product-more-container {
+        margin: 4rem 0;
+    }
+
+    .main__glasses-blog-content a {
+        padding-bottom: 2rem;
+    }
+
+    .footer-social {
+        width: 100%;
+    }
+
+    .footer_right_top, .footer_right_down {
+        text-align: center;
+    }
+
+    .header__navbar-menu-icon-2 {
+        right: 7.8rem;
+        top: 2.7rem;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 739px) {
+    .header__navbar {
+        background-color: transparent;
+        backdrop-filter: none;
+    }
+
+
+    .header__navbar-item-search-input {
+        background-color: var(--background-grey);
+        backdrop-filter: blur(var(--wide-blur));
+    }
+
+
+    .header__navbar-logo {
+        display: none;
+    }
+
+    .header__navbar-list {
+        display: block;
+    }
+
+    .header__navbar-item:nth-child(3), .header__navbar-item-search-input {
+        width: 100% !important;
+    }
+
+    .header__navbar-item-search-input {
+        font-size: 2rem;
+    }
+
+    .header__navbar-item-search-icon {
+        top: 1.7rem;
+        right: 1.2rem;
+    }
+
+    .header__navbar-item-search-icon > i {
+        font-size: 2rem;
+    }
+
+    .header__hover-product-option {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .header__navbar-menu-icon-2 {
+        display: block;
+    }
+
+    .container-glasses {
+        top: 5%;
+    }
+
+    .header__hover-product-link {
+        padding-left: 3.5rem;
+        font-size: 2rem;
+    }
+
+    .main__glasses-sell {
+        margin-top: 0;
+    }
+
+    
+    .main__glasses-blog-banner {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main__glasses-blog-tag {
+        flex-direction: column;
+        grid-row: auto;
+    }
+
+    .main__glasses-interested-text {
+        margin-bottom: 4rem;
+    }
+
+    .header__navbar-list {
+        margin: 0;
+    }
+
+    .main__glasses-blog-btn {
+        margin: 0 auto 5rem auto;
+    }
+    
+    .main__glasses-blog-detail span {
+        font-size: 1.35rem;
+    }
+
+    .bestseller {
+        padding-bottom: 6rem;
+    }
+
+    .view__product-option-left span {
+        font-size: 3rem;
+    }
+
+    .view__product-option-item:nth-child(4) {
+        display: none;
+    }
+
+    .view__product-option-link {
+        display: block;
+    }
+
+    .view__product-option-link span {
+        display: block;
+    }
+
+    .view-all svg {
+        visibility: hidden;
+    }
+
+    .bestseller__item-detail span {
+        font-size: 1.4rem;
+    }
+
+    .main__glasses-choose-content-heading h1, .main__glassses-choose-text span {
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+    }
+
+    .main__glasses-introduction {
+        padding: 5rem 3rem 20px;
+    }
+
+    .main__glasses-interested-heading {
+        font-size: 2.5rem;
+    }
+
+    .main__glasses-interested-content {
+        font-size: 2rem;
+    }
+
+    .main__glasses-interested-hello {
+        right: 6%;
+        transform: translateY(13px);
+    }
+
+    .main__glasses-interested-hello img {
+        width: 10rem;
+    }
+
+    .main__glasses-social-heading h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .main__glasses-social-content p {
+        text-align: center;
+    }
+
+    .main__glasses-journey-header-btn {
+        padding-left: 0;
+    }
+
+    .main__glasses-journey-intro > h1 {
+        font-size: 2.4rem;
+    }
+
+    .main__glasses-journey-intro > p {
+        font-size: 1.4rem;
+    }
+
+    .main__glasses-journey {
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .footer_info {
+        text-align: center;
+    }
+    
+    .bestseller {
+        padding-top: 6rem;
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header__navbar-item {
+        margin: 0 20px;
+    }
+
+    .just_icon {
+        display: block;
+        padding: 0;
+    }
+
+    .header__navbar-item:nth-child(3) {
+        flex: 1;
+    }
+
+    .header__navbar-item-search-input {
+        width: 100% !important;
+    }
+
+    .account_user {
+        display: block;
+    }
+
+    .bestseller {
+        padding-bottom: 6rem;
+    }
+
+    .bestseller__item {
+        margin-top: 2rem;
+    }
+
+    /* .view__product-option-left {
+        text-align: center;
+    }
+
+    .view__product-option-link span {
+        font-size: 1.4rem;
+    }
+
+    .view__product-item {
+        padding-bottom: 2.8rem;
+    }
+
+    .view__product-option {
+        padding-bottom: 4rem;
+    }
+
+    .view__product-more-container {
+        margin: 4rem 0;
+    } */
+
+   
+
+    .main__glasses-choose {
+        margin-top: 0;
+    }
+
+    .main__glasses-interested-content {
+        margin-bottom: 4rem;
+    }
+
+    .main__glasses-blog-btn {
+        width: 35%;
+        margin: 0 auto 5rem auto;
+    }
+    
+    .main__glasses-blog-detail span {
+        font-size: 1.35rem;
+    }
+
+   
+
+    @media (max-width: 768px) {
+        .main__glasses-blog-banner {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(12, 150px);
+            grid-column-gap: 0;
+            grid-row-gap: 20px;
+        }
+    
+        .main__glasses-blog-tag:first-child {
+            grid-row: 1/3;
+        }
+    
+        .main__glasses-blog-tag:nth-child(2) {
+            grid-row: 3/5;
+        }
+    
+        .main__glasses-blog-tag:nth-child(3) {
+            grid-row: 5/7;
+        }
+    
+        .main__glasses-blog-tag:nth-child(4) {
+            grid-row: 7/9;
+        }
+    
+        .main__glasses-blog-tag:nth-child(5) {
+            grid-row: 9/11;
+        }
+    
+        .main__glasses-blog-tag:last-child {
+            grid-row: 11/13;
+        }
+    }
+
+    .header__navbar-item-cart::after {
+        right: 103px;
+    }
+
+    .header__navbar-item-search-item span {
+        font-size: 1.2rem;
+    }
+  
+}
+
+
+@media (min-width: 1024px) and (max-width: 1113px) {
+
+    .view__product-option-left span {
+        font-size: 2.7rem;
+    }
+
+
+    .view__product-option-link span {
+        font-size: 1.4rem;
+    }
+
+    .main__glasses-interested-hello
+    {
+        transform: translateY(16rem);
+        right: 10%;
+    }
+
+    .main__glasses-interested-hello:hover {
+        transform: translateY(50px);
+    }
+
+    .intro_responsive {
+        width: auto;
+    }
+    
+    .main__glasses-interested-search span {
+        padding-left: 1.4rem;
+    }
+
+    .main__glasses-blog-detail span {
+        font-size: 1.35rem;
+    }
+
+    .main__glasses-blog-content {
+        justify-content: space-around;
+    }
+
+    .main__glasses-blog-content a {
+        font-size: 1.8rem;
+    }
+
+    .main__glasses-journey-header-btn {
+        padding-left: 0;
+    }
+
+    .main__glasses-journey-header-icon span {
+        padding-left: 0;
+    }
+
+    .main__glasses-journey-detail {
+        display: flex !important;
+    }
+}
+
+
+@media (max-width: 1320px) {
+    .header__navbar-item-search-input {
+        width: 33rem;
+    }
+
+
+    .header__navbar-item-link {
+        font-size: 1.3rem;
+    }
+
+
+    .header__navbar-list .header__navbar-item:nth-child(5) {
+        padding: 0 10px
+    }
+
+
+    .header__navbar-list {
+        /* margin: 0 0 0 1.6rem; */
+    }
+
+
+    .header__navbar-item:nth-child(2) .header__navbar-item-link {
+        padding-left: 1rem;
+    }
+}
